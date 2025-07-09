@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "162c5a9c-1e99-4dd0-95df-e63e36263ff0")
+	(uuid "19bb52f0-2c3c-41ad-a469-cc2405f89be8")
 	(paper "A4")
 	(lib_symbols
 		(symbol "LCSC:K230_Rewired"
@@ -7255,35 +7255,272 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LCSC:ZDSD04GLGEAG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U2"
+				(at 0.254 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZDSD04GLGEAG"
+				(at 0.254 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:LGA-8_L8.0-W6.0-P1.27-TL-1"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.infinigo.com/pdf/3612a4a4-d947-4856-b8b5-7c68681dffae.pdf"
+				(at 15.494 -12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2875854"
+				(at 15.24 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C2875854"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ZDSD04GLGEAG_0_1"
+				(rectangle
+					(start -6.35 10.16)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 8.89)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 7.62 180)
+					(length 2.54)
+					(name "CMD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 5.08 180)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -5.08 180)
+					(length 2.54)
+					(name "DAT3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(symbol
-		(lib_id "LCSC:K230_Rewired")
-		(at 27.94 238.76 0)
+		(lib_id "LCSC:ZDSD04GLGEAG")
+		(at 222.25 45.72 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb25d762-0451-435e-8ea2-62c607b0f14c")
-		(property "Reference" "U1"
-			(at 27.94 170.18 0)
+		(uuid "0c4003b1-a607-4220-852d-1cbb049208f3")
+		(property "Reference" "U2"
+			(at 222.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "K230_Rewired"
-			(at 27.94 172.72 0)
+		(property "Value" "ZDSD04GLGEAG"
+			(at 222.25 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:BGA-390_L13.0-W13.0-P0.65-TL_C9900054646"
-			(at 114.046 230.378 0)
+		(property "Footprint" "footprints:LGA-8_L8.0-W6.0-P1.27-TL-1"
+			(at 222.25 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,8 +7529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://img.jlc.com/pdf/applyPasteComponent/2023-07-28/443236C/ff66d85831064c6c99f6af001cc66cad/K230_UnSiP_PO-ABGADD0X22-A.pdf"
-			(at 72.136 257.302 0)
+		(property "Datasheet" "https://cdn.infinigo.com/pdf/3612a4a4-d947-4856-b8b5-7c68681dffae.pdf"
+			(at 206.756 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7303,7 +7540,103 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 238.76 0)
+			(at 222.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2875854"
+			(at 207.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "634a2de3-fa64-4a67-a08c-bed01e6fa571")
+		)
+		(pin "2"
+			(uuid "43afecdc-6216-4683-b0f7-a126ae549433")
+		)
+		(pin "6"
+			(uuid "f7f7a8a3-2959-4d66-b422-439a2813e07c")
+		)
+		(pin "3"
+			(uuid "92705acb-8f21-4917-beb9-57b812ef06c4")
+		)
+		(pin "5"
+			(uuid "fb0b4665-0254-4aa2-ba78-493b894e87a7")
+		)
+		(pin "4"
+			(uuid "48d7f14f-ac70-4f7b-9d71-a107636c67a1")
+		)
+		(pin "8"
+			(uuid "974e84f6-d8c9-4b30-a9b0-ffc81c1ce31b")
+		)
+		(pin "7"
+			(uuid "8245d383-d3a0-4f2b-a192-a5065e650820")
+		)
+		(instances
+			(project "orangelight"
+				(path "/162c5a9c-1e99-4dd0-95df-e63e36263ff0/add522a8-4442-49ad-a251-27c0a7c1713e"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:K230_Rewired")
+		(at 182.88 67.31 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a51c74a-e73b-4558-a4f9-1f128d298bc4")
+		(property "Reference" "U1"
+			(at 182.372 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K230_Rewired"
+			(at 182.372 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:BGA-390_L13.0-W13.0-P0.65-TL_C9900054646"
+			(at 268.986 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://img.jlc.com/pdf/applyPasteComponent/2023-07-28/443236C/ff66d85831064c6c99f6af001cc66cad/K230_UnSiP_PO-ABGADD0X22-A.pdf"
+			(at 227.076 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7312,7 +7645,7 @@
 			)
 		)
 		(property "LCSC" "C21264502"
-			(at 27.94 238.76 0)
+			(at 182.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7357,16 +7690,16 @@
 			(uuid "a2cc32e5-1917-48af-a99c-877a800db29a")
 		)
 		(pin "B6"
-			(uuid "53177255-32f4-4db8-85c6-9a101680e66f")
+			(uuid "c9489475-6aa0-4279-9a4d-c9fea1241940")
 		)
 		(pin "A7"
-			(uuid "6f9c144c-1689-44ec-8c62-e73fb5fa9bd2")
+			(uuid "e13e4b7b-b640-44d9-9ba1-504c160c0a90")
 		)
 		(pin "A13"
 			(uuid "3fddede4-5006-4f0d-9467-aed31aa686b3")
 		)
 		(pin "B7"
-			(uuid "0572ad47-61d4-4dc0-b810-07b71c487545")
+			(uuid "5ce18dc7-9ad2-4073-802b-40d1f8dae0dd")
 		)
 		(pin "B8"
 			(uuid "5b516b5b-bdd5-44af-9e88-2e7fe12304a2")
@@ -7375,7 +7708,7 @@
 			(uuid "1298972e-218b-49f2-9a95-ed94e657aec7")
 		)
 		(pin "A6"
-			(uuid "a5516c58-4eee-4a60-b91e-d5518887a9f0")
+			(uuid "f0cdcce1-9f34-415f-92a7-5c60d7dfc72d")
 		)
 		(pin "A16"
 			(uuid "8aa2c4e7-9173-4751-827a-3b470173644a")
@@ -7384,7 +7717,7 @@
 			(uuid "86e91cf5-474a-4304-b986-8f3b43923b7c")
 		)
 		(pin "A5"
-			(uuid "2a8b29bd-bdca-4306-acaa-3c50079c54a3")
+			(uuid "1aa26cfa-2df4-44ff-a097-1baf14dfeff7")
 		)
 		(pin "B4"
 			(uuid "2e2cb88e-d275-491e-ad1e-5e73f919daab")
@@ -7393,7 +7726,7 @@
 			(uuid "51fb0b98-d0b7-4a33-be2e-817f8aefd3ff")
 		)
 		(pin "B5"
-			(uuid "4e998bc4-e0d2-4ecc-b3be-d9193cd0ea73")
+			(uuid "525c8068-f58f-48fb-a9e9-c6052a3b9702")
 		)
 		(pin "A8"
 			(uuid "dbd11b62-2d06-4788-8b47-581abcdb2099")
@@ -7441,7 +7774,7 @@
 			(uuid "98620aa7-5d6a-4ce4-90da-c812924ba7d3")
 		)
 		(pin "D7"
-			(uuid "009ada41-a968-4c55-9117-a3261f454c67")
+			(uuid "b640c71d-3184-483d-84cc-6c7f6ab7015f")
 		)
 		(pin "D11"
 			(uuid "574f5e79-49b3-4c34-ae59-fc576c9c77de")
@@ -7453,7 +7786,7 @@
 			(uuid "1540b5ac-4cc4-4f69-93a7-2500f25aeb68")
 		)
 		(pin "C5"
-			(uuid "2adeed2d-376a-43a5-ba5c-02f3d95c652d")
+			(uuid "8fb9f074-960e-4a9d-801a-067b474fb5e9")
 		)
 		(pin "C10"
 			(uuid "87ea8f93-62ba-4da5-856a-6fba52858f48")
@@ -7462,7 +7795,7 @@
 			(uuid "480d0d16-2c86-4929-9c69-4f31cfc8fe6b")
 		)
 		(pin "C6"
-			(uuid "ca71748c-6d23-4fcd-85aa-3d475ad1f252")
+			(uuid "ba452edf-f541-4fb5-ad49-0d73d6adac74")
 		)
 		(pin "C9"
 			(uuid "5caaa89e-7cae-40dd-9f21-f4a5718b4c9d")
@@ -7486,7 +7819,7 @@
 			(uuid "3cc52d34-7513-46a4-bf2b-26ed650bade2")
 		)
 		(pin "C7"
-			(uuid "c6cc0e41-1696-4f1b-b857-7d4b768de9d9")
+			(uuid "bf11a26b-3c43-49cb-85fd-619a7914a93f")
 		)
 		(pin "E10"
 			(uuid "717d58d9-ddb7-493c-ab2c-aae6ac4e8bde")
@@ -7531,7 +7864,7 @@
 			(uuid "07faf803-3c15-4ed9-a8cf-13a6d6de63c4")
 		)
 		(pin "D5"
-			(uuid "0e8e2897-5b32-4aa6-977c-56b0ae4e8ee3")
+			(uuid "35693848-cdb0-41ea-8a84-69bc2fa3d890")
 		)
 		(pin "D1"
 			(uuid "84ffc19d-d291-4518-8e76-60f3fe06419d")
@@ -7702,10 +8035,10 @@
 			(uuid "69784c82-f381-46c3-80cb-c89d549f3d5f")
 		)
 		(pin "K4"
-			(uuid "1f72b262-01e3-4806-8cf4-bd0f9f8ecefe")
+			(uuid "c61ed7d1-7940-4563-81f9-ec04c2f7469f")
 		)
 		(pin "K1"
-			(uuid "b1e77f57-4ad9-4940-8954-fb0a21a3bab3")
+			(uuid "f3d14025-4e39-4ca7-ae05-582f9b5b249c")
 		)
 		(pin "J9"
 			(uuid "1228b2a9-0388-4e7b-8303-f0b3053f33fd")
@@ -7720,10 +8053,10 @@
 			(uuid "6df72e24-dce9-4760-b4b9-eab1aae4cfcc")
 		)
 		(pin "L2"
-			(uuid "5296fe68-bd06-4bc4-b0d5-210f23ef31f0")
+			(uuid "c8a492e7-36f3-46e2-aec9-49749611e150")
 		)
 		(pin "L4"
-			(uuid "157c6a11-5da4-4180-b4f5-c2330303f8d6")
+			(uuid "0d108a2e-ee11-49d8-af1b-4f8a7a46ff97")
 		)
 		(pin "J15"
 			(uuid "67c001a7-8e42-48b2-aad9-510a79c8d8b8")
@@ -7756,7 +8089,7 @@
 			(uuid "69f783d0-4323-48d1-afe5-0d8269c8757e")
 		)
 		(pin "J5"
-			(uuid "b47e9a5a-1f02-4702-b406-143886543c65")
+			(uuid "38c79983-1754-4c49-a151-a2b1f1745742")
 		)
 		(pin "J2"
 			(uuid "3f1d33df-b745-4055-8511-517d0ccc8d65")
@@ -7768,10 +8101,10 @@
 			(uuid "60f4aa9e-aab1-4e17-b237-54af2e179475")
 		)
 		(pin "K5"
-			(uuid "fbd1efc4-b69e-4e26-9c5e-ea1bd05b4c0b")
+			(uuid "dc4efd4f-f714-44d0-bdb2-221377476260")
 		)
 		(pin "K2"
-			(uuid "e2251bdf-8dd2-4011-ab31-c58d91248a92")
+			(uuid "5e9db36b-9ada-4a4b-8afc-b025fc344bd4")
 		)
 		(pin "J4"
 			(uuid "847e1008-a9e1-4150-a187-08497dc9de55")
@@ -7786,13 +8119,13 @@
 			(uuid "b29e2497-3d2c-4cda-bd23-88df74c3831a")
 		)
 		(pin "L1"
-			(uuid "9250766f-e480-47dd-9065-55243313d51e")
+			(uuid "aaf72b21-fdcd-484e-9b01-c1f19bd6cb98")
 		)
 		(pin "L3"
-			(uuid "a26837f0-b7fc-485e-be88-6edda6061d97")
+			(uuid "98b2fa42-0797-4383-974a-fea77d6a14da")
 		)
 		(pin "L6"
-			(uuid "3d533dcc-1ec4-4be5-881c-ac4f3e8544f1")
+			(uuid "226bd7b5-05bd-44a4-84f9-d7502380caf8")
 		)
 		(pin "L19"
 			(uuid "c67b8eaf-39cc-4b5c-8cea-faa6257656e5")
@@ -7816,7 +8149,7 @@
 			(uuid "3c039d1f-5e08-4c22-ba89-5adc10d1b16f")
 		)
 		(pin "L5"
-			(uuid "dadb2244-ee44-4594-a290-fc71861440fe")
+			(uuid "3de1a296-b95d-4cce-bbf9-52bca0ece17b")
 		)
 		(pin "M11"
 			(uuid "03bb7340-c8e1-45d3-94de-be2d4523ea3d")
@@ -7825,7 +8158,7 @@
 			(uuid "81aca5b1-7a44-493b-a95d-403b6167a765")
 		)
 		(pin "M1"
-			(uuid "965a8a34-d83f-47da-8b48-2f816e5c0bf9")
+			(uuid "73b1d3d7-3ea0-423f-8105-d46ff7011181")
 		)
 		(pin "M12"
 			(uuid "b8873265-cd66-4262-95cb-c03e05f9b2e5")
@@ -8367,9 +8700,6 @@
 		(pin "F18"
 			(uuid "049e7343-f60d-41ba-ae58-9ca024e75e37")
 		)
-		(pin "C20"
-			(uuid "ea5ac49a-a3a1-4520-84f5-bfa6b889e33a")
-		)
 		(pin "E17"
 			(uuid "a1834287-d724-4a15-8cee-fa539cd04fd7")
 		)
@@ -8411,12 +8741,6 @@
 		)
 		(pin "H17"
 			(uuid "a22d731a-7eab-4c43-bbc8-0404a26f38b3")
-		)
-		(pin "D20"
-			(uuid "dc5149d6-7a68-4522-9411-ea0dae1e54c3")
-		)
-		(pin "D19"
-			(uuid "21d8f70b-b1bc-457b-ae13-046a3b79e4c4")
 		)
 		(pin "J20"
 			(uuid "02e01fd4-f6e3-4537-9066-9418ef71bbb7")
@@ -8481,6 +8805,15 @@
 		(pin "N20"
 			(uuid "e4865ab4-6ece-4dbe-8354-ebd1c3120bac")
 		)
+		(pin "D19"
+			(uuid "afd32188-9b78-4d29-b992-567a10d37ae2")
+		)
+		(pin "D20"
+			(uuid "76e17a8c-986c-4068-805d-ff39d259fb29")
+		)
+		(pin "C20"
+			(uuid "ce251fc5-6c78-4532-8cfd-5bb13ee6b9d7")
+		)
 		(pin "K20"
 			(uuid "ea6a5923-440a-40fb-b15b-ad2ce6720a09")
 		)
@@ -8491,228 +8824,12 @@
 			(uuid "6ca1c4f2-efdd-436d-a5fe-9fa6401d9d73")
 		)
 		(instances
-			(project ""
-				(path "/162c5a9c-1e99-4dd0-95df-e63e36263ff0"
+			(project "orangelight"
+				(path "/162c5a9c-1e99-4dd0-95df-e63e36263ff0/add522a8-4442-49ad-a251-27c0a7c1713e"
 					(reference "U1")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 187.96 88.9)
-		(size 53.34 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "22656d56-c6fe-4939-954d-44feddb60cce")
-		(property "Sheetname" "Power"
-			(at 187.96 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 187.96 114.8846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "orangelight"
-				(path "/162c5a9c-1e99-4dd0-95df-e63e36263ff0"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 12.065 12.065)
-		(size 26.035 26.035)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "260c0f33-5347-43a7-89e3-5c53038a067c")
-		(property "Sheetname" "RAM"
-			(at 12.065 11.3534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 12.065 38.6846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "orangelight"
-				(path "/162c5a9c-1e99-4dd0-95df-e63e36263ff0"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 43.18 12.7)
-		(size 20.32 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "add522a8-4442-49ad-a251-27c0a7c1713e")
-		(property "Sheetname" "Storage"
-			(at 43.18 11.9884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "storage.kicad_sch"
-			(at 43.18 33.6046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "orangelight"
-				(path "/162c5a9c-1e99-4dd0-95df-e63e36263ff0"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 96.52 30.48)
-		(size 40.64 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c8dbdc8f-f53b-4405-88d8-7ad59d13e2bf")
-		(property "Sheetname" "Camera"
-			(at 96.52 29.7684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "camera.kicad_sch"
-			(at 96.52 53.9246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "orangelight"
-				(path "/162c5a9c-1e99-4dd0-95df-e63e36263ff0"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 81.28 83.82)
-		(size 73.66 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e369f875-e64c-49f3-a47c-b166ee05c6b2")
-		(property "Sheetname" "GPIO"
-			(at 81.28 83.1084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "gpio.kicad_sch"
-			(at 81.28 102.1846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "orangelight"
-				(path "/162c5a9c-1e99-4dd0-95df-e63e36263ff0"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
