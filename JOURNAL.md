@@ -5,7 +5,7 @@ description: "Kendryte K230 Development Board"
 created_at: "2025-07-8"
 ---
 
-Total Time Spent: 4h
+Total Time Spent: 7h
 
 # July 6
 I completely rearranged the K230 symbol so that the pins were in locations that made sense.
@@ -27,5 +27,13 @@ After: Actually arranged by function of the pins
 
 Time Spent: 4h
 
-#July 8
-The 
+# July 10
+The RAM has been completed. I mostly followed the example schematic although there were a few things like the VREFs and power connections that I had to figure out.
+
+![image](https://github.com/user-attachments/assets/1988c3ae-81a7-4f01-8c04-af776ed4227c)
+
+I added both a 512MB flash chip and an SD card slot so I can make it more compact later but also have the option of an SD card. (There is more RAM than flash 💀💀💀).
+
+![image](https://github.com/user-attachments/assets/8a70338d-9cea-4f9d-82cc-bd549c04b203)
+
+Time Spent: 3h
