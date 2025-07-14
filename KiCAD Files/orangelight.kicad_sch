@@ -174,7 +174,7 @@
 		)
 	)
 	(sheet
-		(at 81.28 83.82)
+		(at 78.74 83.82)
 		(size 73.66 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -190,7 +190,7 @@
 		)
 		(uuid "e369f875-e64c-49f3-a47c-b166ee05c6b2")
 		(property "Sheetname" "GPIO"
-			(at 81.28 83.1084 0)
+			(at 78.74 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "gpio.kicad_sch"
-			(at 81.28 102.1846 0)
+			(at 78.74 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
