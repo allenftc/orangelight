@@ -5,7 +5,7 @@ description: "Kendryte K230 Development Board"
 created_at: "2025-07-8"
 ---
 
-Total Time Spent: 7h
+Total Time Spent: 9h
 
 # July 6
 I completely rearranged the K230 symbol so that the pins were in locations that made sense.
@@ -42,3 +42,5 @@ Time Spent: 3h
 I added the clocks, reset circuit, and the USB connector. The USB connector was a little confusing because I didn't know what the ID and CC pins did but I understand now. 
 
 <img width="1153" height="1132" alt="image" src="https://github.com/user-attachments/assets/f08e62ab-af18-4c66-8a1f-9c2dc1f1df84" />
+
+Time Spent: 2h
