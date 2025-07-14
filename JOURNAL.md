@@ -37,3 +37,8 @@ I added both a 512MB flash chip and an SD card slot so I can make it more compac
 ![image](https://github.com/user-attachments/assets/8a70338d-9cea-4f9d-82cc-bd549c04b203)
 
 Time Spent: 3h
+
+# July 12
+I added the clocks, reset circuit, and the USB connector. The USB connector was a little confusing because I didn't know what the ID and CC pins did but I understand now. 
+
+<img width="1153" height="1132" alt="image" src="https://github.com/user-attachments/assets/f08e62ab-af18-4c66-8a1f-9c2dc1f1df84" />
