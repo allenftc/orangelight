@@ -5,7 +5,7 @@ description: "Kendryte K230 Development Board"
 created_at: "2025-07-8"
 ---
 
-Total Time Spent: 7h
+Total Time Spent: 13h
 
 # July 6
 I completely rearranged the K230 symbol so that the pins were in locations that made sense.
@@ -37,3 +37,23 @@ I added both a 512MB flash chip and an SD card slot so I can make it more compac
 ![image](https://github.com/user-attachments/assets/8a70338d-9cea-4f9d-82cc-bd549c04b203)
 
 Time Spent: 3h
+
+# July 12
+I added the clocks, reset circuit, and the USB connector. The USB connector was a little confusing because I didn't know what the ID and CC pins did but I understand now. 
+
+<img width="1153" height="1132" alt="image" src="https://github.com/user-attachments/assets/f08e62ab-af18-4c66-8a1f-9c2dc1f1df84" />
+
+Time Spent: 2h
+
+# July 15
+The power management has finally been finished. I first wanted to use the RT9992 as it is a fully integrated power management IC, but it has a minimum voltage of 0.8V. This means it wouldn't work with the K230 that needs a stable 0.8V to function. I decided on the TLV62569 buck converters because they are very simple and efficient devices. I am using a TPS2116 power MUX so that I can have either power from the USB port or the 3.3V port power the board without conflict.
+
+<img width="622" height="997" alt="image" src="https://github.com/user-attachments/assets/fbda16b5-9421-441c-9be1-82497501f831" />
+<img width="1314" height="444" alt="image" src="https://github.com/user-attachments/assets/528e16fe-91c9-48bf-b401-48ed86298404" />
+<img width="1374" height="1221" alt="image" src="https://github.com/user-attachments/assets/1975fd39-c6a6-4dbf-b2e7-c53b2005a8b2" />
+
+I also wired up one of the camera interfaces (I plan on adding many more because I am like crashing out everything has unknown pinouts or is hard to source or only does DVP and not CSI).
+
+<img width="943" height="503" alt="image" src="https://github.com/user-attachments/assets/5d0d1885-1c76-4647-bb4f-ad7ad9141946" />
+
+Time Spent: 4h
